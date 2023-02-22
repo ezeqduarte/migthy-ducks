@@ -1,0 +1,453 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;    
+}
+
+header {
+    background-color: black;
+    justify-content: space-around;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header img {
+    height: 100px;
+}
+
+h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+
+}
+
+nav a {
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+    transition: .2s;    
+}
+
+
+nav a:hover {
+    transform: scale(1.03);
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.activo {
+    text-decoration: underline;
+    color: red;
+    pointer-events:none
+}
+
+.rojo {
+    color: red;    
+}
+
+.image_banner {
+    margin-top: 0.5rem;
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0% 40%;
+}
+
+
+.home {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    width: 100%;
+    border-bottom: solid;
+    display: flex;
+    justify-content: center;
+    padding: 5px 0;
+    margin-bottom: 3rem;
+    text-shadow: 2px 2px 4px #00000063;
+}
+
+.h2_sinmargin {
+    margin-bottom: 0;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+}
+
+.information p {
+    padding: 0.8rem;
+}
+
+.foto_home {
+    display: flex;
+    width: 25%;
+    align-items: center;
+    justify-content: center;
+}
+
+.foto_home img {
+    margin-top: 50px;
+    width: 100%;
+}
+
+/*/ fin de index /*/
+
+.home_about {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+
+.information_about {
+    padding-right: 3rem;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.information_about p {
+    padding: 0.8rem;
+}
+
+.foto_about {
+    display: flex;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+}
+
+/*/ fin del about /*/
+
+.information_information {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.titulo_tabla {
+    margin: 0rem 0rem 3rem 0rem;
+}
+
+
+td, th {
+    text-align: center;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.055);    
+}
+
+.informacion_aditional {
+    margin-top: 4rem;
+}
+
+.mapas {   
+    padding: 0%;
+}
+
+.mapas:hover {
+    transform: scale(1.01);
+}
+
+
+
+/*/ termina information /*/
+
+/*/ empieza rules /*/
+
+.body_rules {
+    background-image: url('../img/contact.png');
+    background-position: 42vw 45vh;
+    background-repeat: no-repeat;
+}
+
+.home_rules {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+}
+
+.home_rules h3 {
+    text-align: center;
+    margin: 0.5rem;
+}
+
+.information_rules {
+    margin-left: 13%;
+    width: 40%;
+}
+
+.information_rules p {
+    margin: 1.5rem;
+}
+
+#titulo {
+    margin-bottom: 3rem;
+}
+
+.orden_letras {
+    list-style: lower-alpha;
+}
+
+ul {
+    list-style: circle;
+}
+
+li {
+    margin: 1.5rem;
+    list-style-position: inside;
+}
+
+
+
+/*/ termina rules /*/
+
+/*/ empieza contact /*/
+
+.home_contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.information_contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 43.2vh;
+    
+}
+
+.information_contact p {
+    margin-left: 5%;
+    width: 19%;
+}
+
+#alinear_top {
+    display: flex;
+    align-items: flex-start;
+}
+
+.home_contact figure {
+    display: flex;
+    width: 10%;
+    justify-content: center;
+}
+
+.contact_logo {
+    width: 100%;
+}
+
+footer {    
+    font-size: 0.9rem;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: center;
+    margin: 60px 0 0 0;
+}
+
+/*/ pagina de registration /*/
+
+.home_registration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form h3 {
+    margin: 0.6rem 0;
+}
+
+form {
+    display: flex;
+    width: 60%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+form p {
+    padding: 5px;
+}
+
+fieldset {
+    margin: 14px 0px;
+    padding: 10px 0px 10px 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.212);
+}
+
+.first_name {    
+    
+    width: 50%;
+    
+}
+
+.first_name input {   
+    margin-left: 20px;
+    width: 60%;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    outline: none;
+}
+
+.last_name {   
+    width: 50%;    
+}
+
+.last_name input {    
+    margin-left: 17px;
+    width: 60%;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    outline: none;
+}
+
+.street_adress {
+    width: 100%;
+}
+
+.street_adress input {
+    width: 74.2%;
+    margin-left: 3.6rem;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    outline: none;
+}
+
+.city {    
+    
+    width: 50%;
+    
+}
+
+.city input {   
+    margin-left: 133px;
+    width: 60%;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    outline: none;
+}
+
+.zip_code {   
+    width: 50%;    
+}
+
+.zip_code input {
+    margin-left: 30px;
+    width: 60%;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    outline: none;
+}
+
+.birthdate {
+width: 50%;
+}
+
+.birthdate input {
+    margin-left: 82px;
+    width: 60%;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    outline: none;
+}
+
+.male {
+    margin-left: 5.5rem;
+}
+
+.fieldset_abajo {
+    padding: 25px 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.signature {
+    margin-top: 25px;
+    padding-left: 4px;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.signature input {
+    width: 50%;
+    margin-right: 6px;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    outline: none;
+}
+
+.date {
+    margin: 25px 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.date input {
+    width: 50%;
+    margin-left: 45px;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+
+.boton_enviar {
+    background-color: rgba(211, 211, 211, 0.637);
+    font-size: 20px;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid;
+    width: 15rem;
+}
+
+.boton_enviar:hover { 
+    color: red;
+    border: 1px solid black;
+    font-weight: bolder;
+}
+
+
+
+

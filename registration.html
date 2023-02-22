@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="./assets/img/logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>MDHL - Information</title>
+</head>
+
+<body>
+    <header>
+        <img src="./assets/img/logo.png" alt="logo">
+        <h1>Mighty Ducks Hockey League</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="information.html">Information</a>
+            <a href="rules.html">Rules</a>
+            <a href="#" class="activo">Registration</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <img src="./assets/img/design1_image1.jpg" class="image_banner" alt="image_banner">
+
+    <section class="home_registration">
+        <h2>Registration form</h2>
+        <form action="show_data.html">
+            <h3 class="rojo">Personal information</h3>
+            <fieldset>
+                <label class="first_name">Playes First Name:
+                    <input type="text" name="first_Name">
+                </label>
+                <label class="last_name">Last name:
+                    <input type="text" name="last_Name">
+                </label>
+            </fieldset>
+            <fieldset>
+                <label class="street_adress">Street Adress:
+                    <input type="text" name="street_Adress">
+                </label>
+            </fieldset>
+            <fieldset>
+                <label class="city">City:
+                    <input type="text" name="city">
+                </label>
+                <label class="zip_code">Zip Code:
+                    <input type="text" name="zip_code">
+                </label>
+            </fieldset>
+            <fieldset>
+                <label class="birthdate">Birth Date:
+                    <input type="date" name="birth_date">
+                </label>
+                <label>Gender:
+                </label>
+                <label class="male">Female
+                    <input type="radio" name="gender" value="Female">
+                </label>
+                <label class="male">Male
+                    <input type="radio" name="gender" value="Male">
+                </label>
+            </fieldset>
+            <fieldset class="fieldset_abajo">
+                <legend><b>Grade</b></legend>
+                <label class="grade">
+                    <input type="radio" name="grade" value="Pre_school">Pre-School
+                </label>
+                <label class="grade">
+                    <input type="radio" name="grade" value="1st">1<sup>st</sup>
+                </label>
+                <label class="grade">
+                    <input type="radio" name="grade" value="2nd">2<sup>nd</sup>
+                </label>
+                <label class="grade">
+                    <input type="radio" name="grade" value="3rd">3<sup>rd</sup>
+                </label>
+                <label class="grade">
+                    <input type="radio" name="grade" value="4th">4<sup>th</sup>
+                </label>
+                <label class="grade">
+                    <input type="radio" name="grade" value="5th">5<sup>th</sup>
+                </label>
+            </fieldset>
+            <h3 class="rojo">Which elementary school do you live near?</h3>
+            <fieldset class="fieldset_abajo">
+                <legend><b>Closest school</b></legend>
+                <label>
+                    <input type="radio" name="closest_school" value="AJ_Katzenmaier"> AJ Katzenmaier
+                </label>
+                <label>
+                    <input type="radio" name="closest_school" value="Greenbay"> Greenbay
+                </label>
+                <label>
+                    <input type="radio" name="closest_school" value="Howard_yeager"> Howard A yeager
+                </label>
+                <label>
+                    <input type="radio" name="closest_school" value="Marjorie_Hart"> Marjorie P Hart
+                </label>
+                <label>
+                    <input type="radio" name="closest_school" value="North_Elementary"> North Elementary
+                </label>
+                <label>
+                    <input type="radio" name="closest_school" value="South_Elementary"> South Elementary
+                </label>
+            </fieldset>
+            <h3 class="rojo">What position(s) do you normally play? (check all that apply)</h3>
+            <fieldset class="fieldset_abajo">
+                <label>
+                    <input type="checkbox" name="position" value="Forward"> Goalkeeper
+                </label>
+                <label>
+                    <input type="checkbox" name="position" value="Defense"> Defense
+                </label>
+                <label>
+                    <input type="checkbox" name="position" value="Midfield"> Midfield
+                </label>
+                <label>
+                    <input type="checkbox" name="position" value="Goalkeeper"> Forward
+                </label>
+            </fieldset>
+            <h3 class="rojo">Uniform size</h3>
+            <fieldset class="fieldset_abajo">
+                <label>
+                    <input type="radio" name="uniform_size" value="YS"> Youth small
+                </label>
+                <label>
+                    <input type="radio" name="uniform_size" value="YM"> Youth Medium
+                </label>
+                <label>
+                    <input type="radio" name="uniform_size" value="YL"> Youth large
+                </label>
+                <label>
+                    <input type="radio" name="uniform_size" value="S"> Small
+                </label>
+                <label>
+                    <input type="radio" name="uniform_size" value="M"> Medium
+                </label>
+                <label>
+                    <input type="radio" name="uniform_size" value="L"> Large
+                </label>
+                <label>
+                    <input type="radio" name="uniform_size" value="XL"> Extra-large
+                </label>
+            </fieldset>
+            <h3 class="rojo">Permission to play</h3>
+            <p>I, the parent or guardian of the minor registrant, agree that the registrant and I wil abide by all the
+                rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury
+                associated with hockey and in consideration for the "League" accepting the registrant for its their
+                employees and associated with hockey and in consideration for the "League" accepting the registrant for
+                its hockey programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL, their
+                employees and associated personnel and volunteers, including the facilities used for practices and
+                games, against any claim by or on behalf of the registrant as a result of the registrant's participation
+                in the programand/orbeing transported to or from MDHL sponsored activities, which transportation.</p>
+            <p>By signing below, I here by agree and autorizethe above. In the addition, by signing below, I also
+                acknowledge that I have read the canellation policy and agree to its terms.</p>
+            <label class="signature">Parent/Guardian signature
+                <input type="text" name="signature">
+            </label>
+            <label class="date"> Date
+                <input type="date" name="date_of_signature">
+            </label>
+            <input type="reset" class="boton_enviar" value="Clear">
+            <input type="submit" class="boton_enviar" value="Send">
+        </form>
+
+    </section>
+
+    <footer>
+        <p>Design and cooding by Duarte, Ezequiel®</p>
+    </footer>
+</body>
+
+</html>
